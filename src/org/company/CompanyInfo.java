@@ -10,6 +10,11 @@ public class CompanyInfo {
 	}
 	private void companyAddress() {
 		System.out.println("thuraipakkam");
+		
+	}
+	
+	private void gst () {
+		System.out.println(123);
 	}
  public static void main  (String args[]) {
 	 // object create 
@@ -17,5 +22,8 @@ public class CompanyInfo {
 			 companyOrg.companyName();
 	 companyOrg.companyId();
 	 companyOrg.companyAddress();
+	 companyOrg.gst();
+	 
+	 
  }
 }
